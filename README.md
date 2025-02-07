@@ -32,7 +32,7 @@ Para rodar os testes, é muito simples. Rode os seguintes comandos em sua área 
 npm cy:modeDesktop
 ```
 
-2 - Rodar a aplicação em modo headless ( sem navagador aparente )
+2 - Rodar a aplicação em modo headless ( sem navegador aparente )
 ```sh
 npm cy:headlessDesktop
 ```
