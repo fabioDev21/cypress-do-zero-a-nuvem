@@ -332,7 +332,7 @@ describe('Central de atendimento ao cliente TAT', () => {
   })
   it('verifica que a política de privacidade abre em outra aba sem a necessidade de um clique', () => {
     cy.get('a[href="privacy.html"]')
-      .should('have.attr', 'target', '_bank')
+      .should('have.attr', 'target', '_blank')
   })
   it('acessa a página da política de privacidade removendo o target e então clicando no link',() => {
     cy.get('a[href="privacy.html"]')
